@@ -180,7 +180,7 @@ submitButton.addEventListener("click", function (event) {
   scoreButton.setAttribute("style", "pointer-events:auto;");
 });
 
-// Stores the initials and score to the scoreboard
+// Stores the initials and score to the scores
 function scoreboard() {
   var listEl = document.querySelector(".list");
   var liEl = document.createElement("li");
@@ -190,7 +190,7 @@ function scoreboard() {
   listEl.appendChild(liEl);
 }
 
-// Clears out the scoreboard
+// Clears out the scores
 clearButton.addEventListener("click", function (event) {
   event.preventDefault();
   var listEl = document.querySelector(".list");
@@ -199,7 +199,7 @@ clearButton.addEventListener("click", function (event) {
   }
 });
 
-// Navigate to scoreboard from initial page load
+// Navigate to scores from initial page load
 scoreButton.addEventListener("click", function (event) {
   event.preventDefault();
   containerEl.setAttribute("class", "hidden");
@@ -207,7 +207,7 @@ scoreButton.addEventListener("click", function (event) {
   incorrectEl[2].setAttribute("class", "card");
 });
 
-// Reload page after navigating to scoreboard
+// Reload page after navigating to scores
 overButton.addEventListener("click", function (event) {
   event.preventDefault();
   location.reload();
