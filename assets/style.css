@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 2rem;
+  
+}
+
+main {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 3rem;
+  padding: 20px;
+}
+.questions {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.scores {
+  margin-left: 3%;
+}
+
+.timer {
+  margin-right: 3%;
+}
+
+.card {
+  width: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  height: 500px;
+  border-radius: 8px;
+}
+
+.quiz {
+  width: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  height: 500px;
+  border-radius: 8px;
+}
+
+.start-button {
+  padding: 5px;
+  width: 25%;
+  max-height: 50px;
+  margin: 15px;
+  background-color: purple;
+  border-radius: 8px;
+  color: white
+}
+
+.hidden {
+  display: none;
+}
+
+.shown {
+  border-radius: 8px;
+  width: 15%;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  height: 4.5rem;
+}
+
+
+.form {
+  display: flex;
+  align-items: center;
+}
