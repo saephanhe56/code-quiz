@@ -26,6 +26,8 @@ THEN I can save my initials and my score
 ```
 ## Action Completed
 
+Created a timed quiz that stores the user's score
+
 ## Page Link
 
 https://saephanhe56.github.io/code-quiz/
